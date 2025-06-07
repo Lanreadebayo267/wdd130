@@ -150,3 +150,35 @@ footer .social {
 footer .social img {
   width: 30px;
 }
+
+.contact-info, .employees, .contact-form {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.employees figure {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-form button {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #004999;
+}
