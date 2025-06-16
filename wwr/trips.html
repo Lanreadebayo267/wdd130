@@ -2,82 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Our rafting trips: explore the rivers with White Water Rafting Adventures.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trips | White Water Rafting Adventures</title>
-    <link rel="stylesheet" href="rafting.css">
+    <meta name="description" content="Explore all our White Water Rafting trips and book your next adventure today.">
+    <title>White Water Rafting - Trips</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="wwrimages/wwr-logo.jpg" alt="Rafting Site Logo">
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Choose Your Adventure</h1>
-            <a href="contact.html" class="cta">Contact Us to Book</a>
-        </section>
+    <section class="trip-intro">
+        <h1>Our Rafting Trips</h1>
+        <p>Choose from a variety of exciting trips tailored for all skill levels.</p>
+        <a class="button" href="contact.html">Book Now</a>
+    </section>
 
-        <section class="trip-descriptions">
-            <div class="trip">
-                <img src="wwrimages/raft4.jpg" alt="Beginner River Run">
-                <h2>Beginner River Run</h2>
-                <p>Perfect for first-timers. Smooth waters with a few exciting rapids to get your feet wet!</p>  
-            </div>
+    <section class="trip-grid">
+        <div class="trip-card">
+            <img src="wwrimages/raft3.jpg" alt="Rapid Rush">
+            <h3>Rapid Rush</h3>
+            <p>Intermediate level, 3-hour adventure packed with thrilling rapids.</p>
+        </div>
+        <div class="trip-card">
+            <img src="wwrimages/raft1.jpg" alt="Family Float">
+            <h3>Family Float</h3>
+            <p>Perfect for families and beginners. Smooth ride with scenic views, 1-hour duration.</p>
+        </div>
+        <div class="trip-card">
+            <img src="wwrimages/raft4.jpg" alt="Extreme Adventure">
+            <h3>Extreme Adventure</h3>
+            <p>Advanced full-day trip for adrenaline seekers. Tackle our most challenging rapids.</p>
+        </div>
+    </section>
 
-            <div class="trip">
-                <img src="wwrimages/raft1.jpg" alt="Wild Rapids Adventure">
-                <h2>Wild Rapids Adventure</h2>
-                <p>Fast-paced, adrenaline-pumping Class III-IV rapids guided by our experts.</p>
-            </div>
-
-            <div class="trip">
-                <img src="wwrimages/raft3.jpg" alt="Full-Day Expedition">
-                <h2>Full-Day Expedition</h2>
-                <p> A full day on the water with lunch provided. Explore multiple rapids and enjoy thhe stunning scenery.</p>
-            </div>
-        </section>
-
-        <section class="trip-table">
-            <h2>Trip Details</h2>
-            <table>
-                <tr>
-                    <th>Trip</th>
-                    <th>Difficulty</th>
-                    <th>Duration</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Beginner River Run</td>
-                    <td>Easy</td>
-                    <td>2 Hours</td>
-                    <td>$50</td>
-                </tr>
-                <tr>
-                    <td>Wild Rapids Adventure</td>
-                    <td>Moderate</td>
-                    <td>4 Hours</td>
-                    <td>$100</td>
-                </tr>
-                <tr>
-                    <td>Full-Day Expedition</td>
-                    <td>Advanced</td>
-                    <td>8 Hours</td>
-                    <td>$180</td>
-                </tr>
-            </table>
-        </section>
-    </main>
+    <section class="trip-table">
+    <h2>Trip Summary Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Trip Name</th>
+                <th>Duration</th>
+                <th>Difficulty</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rapid Rush</td>
+                <td>3 Hours</td>
+                <td>Intermediate</td>
+                <td>$79</td>
+            </tr>
+            <tr>
+                <td>Family Float</td>
+                <td>1 Hour</td>
+                <td>Beginner</td>
+                <td>$49</td>
+            </tr>
+            <tr>
+                <td>Extreme Adventure</td>
+                <td>Full Day</td>
+                <td>Advanced</td>
+                <td>$149</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
 
     <footer>
-        <p>&copy; 2025 White Water Rafting Adventures</p>
-        <a href="wwrimages/tripswireframe.png">View Wireframe</a>
+        <p>&copy; 2025 White Water Rafting. All rights reserved.</p>
     </footer>
 </body>
 </html>

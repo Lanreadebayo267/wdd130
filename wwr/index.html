@@ -2,58 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="White Water Rafting Adventures - Your ultimate rafting experience.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | White Water Rafting Adventures</title>
-    <link rel="stylesheet" href="rafting.css">
+    <meta name="description" content="White Water Rafting adventures for all levels. Plan your next rafting trip with us today!">
+    <title>White Water Rafting - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="wwrimages/wwr-logo.jpg" alt="Rafting Site Logo">
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <img src="wwrimages/hero.jpg" alt="Rafting Adventure">
-            <div class="hero-text">
-                <h1>Experience the Thrill of White Water</h1>
-                <a href="trips.html" class="cta">Book Your Adventure</a>
-            </div>
-        </section>
+    <section class="hero">
+        <h1>Adventure Awaits</h1>
+    </section>
 
-        <section class="newsletter">
-            <h2>Subscribe to our Newsletter</h2>
-            <form>
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </section>
+    <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        <section class="offers">
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="wwrimages/raft3.jpg" alt="Family Rafting">
-                    <h3>Family-Friendly Trips</h3>
-                    <p>Safe and fun rafting trips for the whole family. Perfect for beginners and kids!</p>
-                </div>
-                <div class="grid-item">
-                    <img src="wwrimages/raft4.jpg" alt="Extreme Rafting">
-                    <h3>Extreme Adventures</h3>
-                    <p>Challenge the wildest rapids with our expert guides on advanced rafting adventures.</p>
-                </div>
-            </div>
-        </section>
-    </main>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Subscribe Now</button>
+        </form>
+    </section>
+
+    <section class="cta">
+        <h2>Ready for your next adventure?</h2>
+        <a class="button" href="trips.html">View Our Trips</a>
+    </section>
+
+    <section class="grid-container">
+        <div>
+            <img src="wwrimages/raft2.jpg" alt="Rafting Adventure">
+            <h3>Thrilling Rapids</h3>
+            <p>Experience the adrenaline rush with our expert guides on challenging rapids.</p>
+        </div>
+        <div>
+            <img src="wwrimages/raft5.jpg" alt="Family Rafting">
+            <h3>Family Friendly</h3>
+            <p>Fun and safe trips perfect for families with young kids and first-timers.</p>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 White Water Rafting Adventures</p>
+        <p>&copy; 2025 White Water Rafting. All rights reserved.</p>
     </footer>
 </body>
 </html>
